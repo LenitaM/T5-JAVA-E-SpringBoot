@@ -1,5 +1,17 @@
 História do MySQL
 
+Características:
+
+1 - Servidor
+2 - Portabilidade
+3 - Multithreads
+4 - Formas de Armazenamento
+5 - Velocidade
+6 - Desempenho
+7 - Segurança
+8 - Capacidade
+9 - Aplicabilidade
+10 - Logs
 
 A história do SQL, quando os bancos relacionais estavam começando a ser popularizados. À época, três desenvolvedores, o David Axmark, Allan Larsson e Michael Widenius, buscaram elaborar uma interface SQL que fosse compatível com o que estava surgindo no mercado de banco de dados.
 
@@ -27,7 +39,7 @@ Lembrando que o MySQL é um banco de dados relacional e compatível com a lingua
 
 	Características essências do MySQL
 
-	Multiacesso e Integridade de dados
+	Servidor
 
 O servidor do MySQL é robusto até certo ponto, já que deriva de características de multiacesso, integridade de dados, efetua o relacionamento entre tabelas, trabalha a concorrência quando vários usuários tentam acessar o mesmo dado na mesma tabela, realiza o controle de transações, entre outros processos. Essa robustez é uma característica importante no que diz respeito ao servidor do MySQL.
 
@@ -43,7 +55,7 @@ Ademais, o banco MySQL provém várias APIs que permitem acessar os dados do MyS
 
 Outro atributo importante é o multithreads. O MySQL usa uma programação de threads utilizando diretamente o Kernel do sistema operacional, permitindo aumentar a velocidade de transações, além de facilitar a integração da ferramenta com hardwares, possibilitando a escalabilidade da performance. Isto quer dizer que, caso tenha um MySQL usando um servidor com determinado número de CPUs, é possível acrescentar mais CPUs que o banco de dados se adapta usando o máximo do hardware disponível.
 
-	Várias Formas de Armazenamento
+	Formas de Armazenamento
 
 O banco de dados MySQL atua com diversas formas de armazenamento que se adaptam às características das suas necessidades. Por exemplo, algumas formas priorizam a velocidade, enquanto outras o alto volume de armazenamento, tudo dependendo do objetivo pelo qual você utiliza o MySQL. Discutiremos mais sobre isso em treinamentos futuros, quando abordarmos a parte de administração.
 
@@ -55,7 +67,7 @@ A velocidade é outro aspecto fundamental. O MySQL é considerado um dos bancos 
 
 Já sobre segurança, o banco de dados MySQL possui internamente diversos mecanismos de segurança, o que o torna bastante seguro para o mercado. Além disso, permite a segregação dos dados por usuários de acesso, isto é, a pessoa possui acesso somente ao que lhe for permitido.
 
-	Grande capacidade de Armazenamento de Dados
+	Capacidade de Armazenamento de Dados
 
 O MySQL também permite o armazenamento de uma quantidade enorme de dados, tornando a sua capacidade alta, a depender das formas de armazenamento. Se for escolhida uma forma que prioriza o volume de dados, há um limite hoje de até 65 mil terabytes de dados armazenados. Claro, recuperar e manipular esse volume de informação pode ser um pouco difícil e depender de muito hardware. A maioria das aplicações corporativas não precisam desse tamanho todo de armazenamento para trabalharem.
 

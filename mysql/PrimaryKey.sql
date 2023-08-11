@@ -6,6 +6,7 @@ ALTER TABLE tbProduto ADD PRIMARY KEY (PRODUTO); /* podendo usar o comando CREAT
 
 ALTER TABLE tbvendedores ADD PRIMARY KEY (MATRICULA);
 
+
 SELECT * FROM tbProduto;
 
 /*PK = ela dá um crontole sobre a tabela e n vai deixar, por exemplos, dois produtos com o mesmo cod pq a PK do produto são os cod,

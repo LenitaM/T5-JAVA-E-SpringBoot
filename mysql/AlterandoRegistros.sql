@@ -37,4 +37,12 @@ SELECT * FROM tbProduto;
 UPDATE tbProduto SET EMBALAGEM = 'Lata', PRECO_LISTA = 2.46
 WHERE PRODUTO = '544931';
 
-UPDATE tbProduto SET EMBALAGEM = 'Garrafa' WHERE PRODUTO ='1078680'; 
+UPDATE tbProduto SET EMBALAGEM = 'Garrafa' WHERE PRODUTO ='1078680';
+
+/*Atividade*/ 
+
+UPDATE tbVendedores SET PERCENTUAL_COMISSAO = 0.11 WHERE MATRICULA = '00236';
+
+UPDATE tbVendedores SET NOME = 'José Geraldo da Fonseca Júnior' WHERE MATRICULA = '00233';
+
+SELECT * FROM tbVendedores;

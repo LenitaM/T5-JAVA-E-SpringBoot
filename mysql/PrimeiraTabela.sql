@@ -13,10 +13,12 @@ LIMITE_CREDITO FLOAT,
 VOLUME_COMPRA FLOAT,
 PRIMEIRA_COMPRA BIT(1));
 
-/*COMANDO PARA EXCLUIR UMA TABELA*/
+/*COMANDO PARA EXCLUIR UMA TABELA
 Use Sucos;
 
-DROP TABLE TABELA_DE_VENDEDORES; /*ele excluí a tabela toda, tem que ter cuidado*/
+DROP TABLE TABELA_DE_VENDEDORES; - ele excluí a tabela toda, tem que ter cuidado
+*/
+
 
 
 

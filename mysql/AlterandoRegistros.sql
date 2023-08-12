@@ -41,8 +41,8 @@ UPDATE tbProduto SET EMBALAGEM = 'Garrafa' WHERE PRODUTO ='1078680';
 
 /*Atividade*/ 
 
-UPDATE tbVendedores SET PERCENTUAL_COMISSAO = 0.11 WHERE MATRICULA = '00236';
+UPDATE tabela_de_vendedores SET PERCENTUAL_COMISSAO = 0.11 WHERE MATRICULA = '00236';
 
-UPDATE tbVendedores SET NOME = 'José Geraldo da Fonseca Júnior' WHERE MATRICULA = '00233';
+UPDATE tabela_de_vendedores SET NOME = 'José Geraldo da Fonseca Júnior' WHERE MATRICULA = '00233';
 
 SELECT * FROM tbVendedores;

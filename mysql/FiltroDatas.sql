@@ -1,0 +1,17 @@
+/*FILTRANDO DATAS*/
+
+SELECT * FROM tbcliente;
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO = '2000-03-12';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO > '1995-01-13';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO < '1995-01-13';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO >= '1995-01-13';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO <= '1995-01-13';
+
+SELECT * FROM tbcliente WHERE YEAR (DATA_NASCIMENTO) = 1995; /*UMA FUNÇÃO POR ISO N TEM ' ' */
+
+SELECT * FROM tbcliente WHERE MONTH(DATA_NASCIMENTO) = 10; /*Meses no filtro tratando a data como se fosse numero*/

@@ -62,6 +62,8 @@ VALUES (
 19.51);
 
 
+
+
 SELECT * FROM tbProduto; /*visualização de dados*/
 
 /*Atividade*/
@@ -91,6 +93,8 @@ PERCENTUAL_COMISSAO) VALUES (
 0.08);
 
 SELECT * FROM tbVendedores; 
+
+
 
 
 
